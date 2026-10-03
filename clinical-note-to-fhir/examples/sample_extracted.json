@@ -1,0 +1,15 @@
+{
+  "patient_pseudonym": "PATIENT-ABC123",
+  "birth_year": "1985",
+  "conditions": [
+    {"display": "Community-acquired pneumonia", "icd10_code": "J18.9", "clinical_status": "active"}
+  ],
+  "medications": [
+    {"display": "Amoxicillin/Clavulanate", "dosage": "875/125mg", "frequency": "BID for 7 days"}
+  ],
+  "observations": [
+    {"display": "SpO2", "value": "94", "unit": "%"},
+    {"display": "Heart rate", "value": "88", "unit": "bpm"}
+  ],
+  "plan_notes": ["Chest X-ray ordered", "Follow-up in 1 week"]
+}

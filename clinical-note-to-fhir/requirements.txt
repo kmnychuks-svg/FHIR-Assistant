@@ -1,0 +1,7 @@
+requests>=2.31.0
+fhir.resources==7.1.0
+pytest>=8.0.0
+
+# Optional: only needed if you set LLM_BACKEND=anthropic instead of the
+# default local Ollama backend.
+# anthropic>=0.40.0

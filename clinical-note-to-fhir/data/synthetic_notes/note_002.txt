@@ -1,0 +1,20 @@
+Patient: Maria Schmidt (synthetic / fiktiv)
+DOB: 1972-11-02
+Visit date: 2026-09-30
+
+Chief complaint: Follow-up for type 2 diabetes mellitus and hypertension.
+
+History: 53-year-old female, known type 2 diabetes (diagnosed 2015) and hypertension (diagnosed 2018). Reports good adherence to medication. No hypoglycemic episodes. Occasional headaches, denies chest pain or visual disturbances.
+
+Examination: BP 142/88, HR 76 bpm. Weight 78kg (stable). Fasting glucose 146 mg/dL. HbA1c 7.4%.
+
+Assessment: Type 2 diabetes mellitus, moderately controlled. Hypertension, suboptimally controlled.
+
+Plan:
+- Continue Metformin 1000mg BID
+- Increase Lisinopril from 10mg to 20mg once daily
+- Lab recheck (HbA1c, lipid panel) in 3 months
+- Dietary counseling referral
+- Follow-up in 3 months
+
+Discharge diagnosis: Type 2 diabetes mellitus (ICD-10: E11.9), Essential hypertension (ICD-10: I10)

@@ -1,0 +1,100 @@
+{
+  "resourceType": "Bundle",
+  "id": "84396ed4-171f-4ada-8723-bcf1b083ada9",
+  "type": "collection",
+  "timestamp": "2026-10-02T20:37:03.188319+00:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:07a3ef84-8711-4937-b5f4-1970eb4a384e",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "07a3ef84-8711-4937-b5f4-1970eb4a384e",
+        "identifier": [
+          {
+            "system": "urn:example:pseudonym",
+            "value": "PATIENT-ABC123"
+          }
+        ],
+        "birthDate": "1985-01-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:468e11b9-6661-46d2-bea9-eb6f26d3fdc2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "468e11b9-6661-46d2-bea9-eb6f26d3fdc2",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J18.9",
+              "display": "Community-acquired pneumonia"
+            }
+          ],
+          "text": "Community-acquired pneumonia"
+        },
+        "subject": {
+          "reference": "Patient/07a3ef84-8711-4937-b5f4-1970eb4a384e"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75293bcf-ffa7-4774-b04f-907655fd0138",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "75293bcf-ffa7-4774-b04f-907655fd0138",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "text": "Amoxicillin/Clavulanate"
+        },
+        "subject": {
+          "reference": "Patient/07a3ef84-8711-4937-b5f4-1970eb4a384e"
+        },
+        "dateAsserted": "2026-10-02T20:37:03.184099+00:00",
+        "dosage": [
+          {
+            "text": "875/125mg BID for 7 days"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1feab252-185f-4ebc-a268-7e2e7544a3db",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1feab252-185f-4ebc-a268-7e2e7544a3db",
+        "status": "final",
+        "code": {
+          "text": "SpO2"
+        },
+        "subject": {
+          "reference": "Patient/07a3ef84-8711-4937-b5f4-1970eb4a384e"
+        },
+        "valueString": "94 %"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c8c2c620-a4dd-48c7-b63a-3607b5d526c6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c8c2c620-a4dd-48c7-b63a-3607b5d526c6",
+        "status": "final",
+        "code": {
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "Patient/07a3ef84-8711-4937-b5f4-1970eb4a384e"
+        },
+        "valueString": "88 bpm"
+      }
+    }
+  ]
+}

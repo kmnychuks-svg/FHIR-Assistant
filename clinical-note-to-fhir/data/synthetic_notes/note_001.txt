@@ -1,0 +1,19 @@
+Patient: John Doe (synthetic / fiktiv)
+DOB: 1985-03-14
+Visit date: 2026-09-28
+
+Chief complaint: Patient presents with persistent cough and shortness of breath over the past 5 days.
+
+History: 41-year-old male, former smoker (quit 2019), presents with productive cough, low-grade fever (38.1°C), and mild dyspnea on exertion. No chest pain. No recent travel.
+
+Examination: Lungs with bilateral crackles at the bases. SpO2 94% on room air. HR 88 bpm, BP 128/82.
+
+Assessment: Community-acquired pneumonia (CAP), mild severity (CURB-65 score 0-1).
+
+Plan:
+- Start Amoxicillin/Clavulanate 875/125mg BID for 7 days
+- Chest X-ray ordered
+- Follow-up in 1 week or sooner if symptoms worsen
+- Advised rest, fluids, and smoking cessation support
+
+Discharge diagnosis: Community-acquired pneumonia (ICD-10: J18.9)
